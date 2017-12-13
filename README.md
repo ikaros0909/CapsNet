@@ -1,7 +1,7 @@
 # CapsNet 
 - CapsNet을 이용하여 MNIST 손글씨 인식 테스트를 하고 있습니다.
 
-##hyperparameter description
+## hyperparameter description
 - --batch_size=100 batch size
 - --epochs=1 이포크 학습 반복수
 - --lam_recon=0.392 784 * 0.0005, paper uses sum of SE, here uses MSE 0.392
