@@ -17,7 +17,7 @@ CapsNet을 이용하여 MNIST 손글씨 인식 테스트를 하고 있습니다.
 - python capsulenet_test.py --batch_size=100 --epochs=1 --lam_recon=0.392 --num_routing=2 --shift_fraction=0.2 --debug=1 --save_dir='./result/trained_model_test.h5' --is_training=0 --weights='/trained_model.h5' --lr=0.001
 
 
-# Capsnet_related
+# CapsNet Related
 Resources of Capsule Network
 
 ## Papers & Thesis
