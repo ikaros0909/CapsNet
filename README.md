@@ -1,4 +1,7 @@
-# CapsNet hyperparameter description
+# CapsNet 
+- CapsNet을 이용하여 MNIST 손글씨 인식 테스트를 하고 있습니다.
+
+##hyperparameter description
 - --batch_size=100 batch size
 - --epochs=1 이포크 학습 반복수
 - --lam_recon=0.392 784 * 0.0005, paper uses sum of SE, here uses MSE 0.392
@@ -10,6 +13,8 @@
 - --weights='/trained_model.h5' 테스트할때 불러들일 모델 파일명
 - --lr=0.001 learning rate
 
+## Command 창에서 실행
+- python capsulenet_test.py --batch_size=100 --epochs=1 --lam_recon=0.392 --num_routing=2 --shift_fraction=0.2 --debug=1 --save_dir='./result/trained_model_test.h5' --is_training=0 --weights='/trained_model.h5' --lr=0.001
 
 # Capsnet_related
 Resources of Capsule Network
