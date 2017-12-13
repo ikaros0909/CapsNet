@@ -1,4 +1,4 @@
-# CapsNet 
+# CapsNet for MNIST
 - CapsNet을 이용하여 MNIST 손글씨 인식 테스트를 하고 있습니다.
 
 ## hyperparameter description
